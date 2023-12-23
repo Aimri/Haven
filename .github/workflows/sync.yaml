@@ -41,8 +41,8 @@ jobs:
 
       - name: 配置Git用户名邮箱
         run: |
-          git config --global user.name "Ymri"
-          git config --global user.email "1448265203@qq.com"
+          git config --global user.name "Aimri"
+          git config --global user.email "jiayouym1@gmail.com"
 
       - name: 提交拉取的文档到GitHub仓库
         run: |
