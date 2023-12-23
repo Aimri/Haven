@@ -23,12 +23,12 @@ export default defineConfig({
     lastUpdated: true,
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于作者', link: 'https://github.com/ymriri' },
+      { text: '关于作者', link: '' },
     ],
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Ymriri/Haven'
+        link: 'https://github.com/Aimri/Haven'
       }
     ],
     search: {
