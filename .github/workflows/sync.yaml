@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: "18.x"
+          timezoneLinux: "Asia/Shanghai"
 
       - name: 安装依赖
         run: |
