@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: 设置时区
+        uses: szenius/set-timezone@v1.2 # 设置虚拟环境的时区，可更改时区
+        with:
+          timezoneLinux: "Asia/Shanghai"
       - name: 检查分支
         uses: actions/checkout@master
 
@@ -22,7 +26,6 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: "18.x"
-          timezoneLinux: "Asia/Shanghai"
 
       - name: 安装依赖
         run: |
