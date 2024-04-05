@@ -19,7 +19,7 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "@elog/cli": "^0.13.0",
-    "@sugarat/theme": "^0.2.27",
+    "@sugarat/theme": "^0.3.0",
     "element-plus": "^2.3.8",
     "markdown-it-task-checkbox": "^1.0.6",
     "vue": "^3.3.13"
@@ -30,6 +30,6 @@
   "devDependencies": {
     "sass": "^1.64.1",
     "typescript": "^5.1.6",
-    "vitepress": "^1.0.0-rc.32"
+    "vitepress": "^1.0.2"
   }
 }
